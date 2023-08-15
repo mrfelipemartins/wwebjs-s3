@@ -1,0 +1,1 @@
+export const S3Store: typeof import("./src/S3Store");

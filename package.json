@@ -1,0 +1,20 @@
+{
+  "name": "s3-auth",
+  "version": "1.0.0",
+  "description": "A S3 RemoteAuth strategy for whatsapp-web.js library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "s3",
+    "wwebjs",
+    "whatsapp-web.js",
+    "remote-auth"
+  ],
+  "author": "Felipe Martins",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.391.0"
+  }
+}
