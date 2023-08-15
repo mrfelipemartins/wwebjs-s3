@@ -25,7 +25,7 @@ To use this AWS S3 remote auth strategy with WhatsAppWeb.js, follow these steps:
 
 ```javascipt
 const { Client, RemoteAuth } = require('whatsapp-web.js');
-const { S3Store } = require('s3-auth');
+const { S3Store } = require('wwebjs-s3');
 
 const credentials = {
   region: 'your-s3-region',
