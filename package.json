@@ -1,5 +1,5 @@
 {
-  "name": "s3-auth",
+  "name": "wwebjs-s3",
   "version": "1.0.0",
   "description": "A S3 RemoteAuth strategy for whatsapp-web.js library",
   "main": "index.js",
