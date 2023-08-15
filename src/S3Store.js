@@ -101,3 +101,5 @@ class S3Store {
         }
     }
 }
+
+module.exports = S3Store;
