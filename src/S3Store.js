@@ -32,7 +32,8 @@ class S3Store {
             })
 
             const data = await this.client.send(command);
-            const objects = data.Contents
+            
+            const objects = data.Contents || []
 
             if(objects.length > 0) return true
         } catch (error) {
