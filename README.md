@@ -1,7 +1,7 @@
 # WhatsAppWeb.js AWS S3 Remote Auth Strategy
 
 [![npm version](https://img.shields.io/npm/v/wwebjs-s3.svg)](https://www.npmjs.com/package/wwebjs-s3)
-[![License](https://img.shields.io/npm/l/wwebjs-s3.svg)](https://github.com/your-username/wwebjs-s3/blob/main/LICENSE)
+[![License](https://img.shields.io/npm/l/wwebjs-s3.svg)](https://github.com/mrfelipemartins/wwebjs-s3/blob/main/LICENSE)
 
 🚀 **WhatsAppWeb.js AWS S3 Remote Auth Strategy** is a custom authentication strategy for WhatsAppWeb.js, allowing you to use AWS S3 for remote authentication.
 
