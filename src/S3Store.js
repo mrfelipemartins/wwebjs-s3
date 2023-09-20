@@ -1,7 +1,6 @@
 
 const { S3Client, ListObjectsCommand, PutObjectCommand, GetObjectCommand, DeleteObjectCommand } = require("@aws-sdk/client-s3");
 const { createReadStream, createWriteStream } = require("fs");
-const { resolve } = require("path");
 
 class S3Store {
     constructor(credentials) {
@@ -14,6 +13,7 @@ class S3Store {
 
         this.credentials = credentials;
         this.client = new S3Client({
+            endpoint: credentials.endpoint || undefined,
             region: credentials.region,
             credentials: {
                 accessKeyId: credentials.accessKeyId,
