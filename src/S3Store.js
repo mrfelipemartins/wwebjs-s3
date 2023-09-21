@@ -13,11 +13,12 @@ class S3Store {
 
         this.credentials = credentials;
         this.client = new S3Client({
+            forcePathStyle: credentials.forcePathStyle || false,
             endpoint: credentials.endpoint || undefined,
             region: credentials.region,
             credentials: {
                 accessKeyId: credentials.accessKeyId,
-                secretAccessKey: credentials.secretAccessKey
+                secretAccessKey: credentials.secretAccessKey,
             }
         })
     }
